@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/teasuper/public_html/druthi/git_test/
+    - /bin/cp * $DEPLOYPATH
